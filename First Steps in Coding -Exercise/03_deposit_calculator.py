@@ -1,0 +1,5 @@
+deposit_sum = float(input())
+srok = int(input())
+yearly_rate = float(input())
+total_sum = deposit_sum + srok * ((deposit_sum * yearly_rate/100) / 12)
+print(total_sum)

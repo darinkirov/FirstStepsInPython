@@ -10,7 +10,7 @@ def main():
     for _ in range(n):
         string = input("Enter a string: ")
         if is_pure_string(string):
-            print(f"{string} is pure.")
+            print(f"{string} is pure. ")
         else:
             print(f"{string} is not pure!")
 

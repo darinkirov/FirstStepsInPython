@@ -14,4 +14,4 @@ for orders in range(number_of_orders):
     price = price_per_capsule*days*capsules_needed_per_day
     price_total += price
     print(f"The price for the coffee is: ${price:.2f}")
-print(f"Total: ${price_total:.2f}")
+print(f"Total : ${price_total:.2f}")
